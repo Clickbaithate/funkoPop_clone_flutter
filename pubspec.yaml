@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.1.0
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -16,4 +18,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  assets:
+   - assets/images/placeholder.jpg
   uses-material-design: true
